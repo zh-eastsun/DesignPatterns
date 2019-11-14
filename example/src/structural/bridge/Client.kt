@@ -8,6 +8,11 @@ class Client {
             var cpu = IntelCpu()
             macBookPro.setCpuFramework(cpu)
             macBookPro.work()
+
+            var surface = Surface()
+            var intelCpu = IntelCpu()
+            surface.setCpuFramework(intelCpu)
+            surface.work()
         }
     }
 }
