@@ -1,4 +1,4 @@
-package bridge
+package structural.bridge
 
 class MacBookPro : Computer() {
     override fun runOS() {

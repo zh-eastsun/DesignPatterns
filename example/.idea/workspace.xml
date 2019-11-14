@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62daeacd-c4e6-4f0b-b7d3-4cd6427bc187" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/command/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/res/UML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/res/character.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/command/NewConcreteCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/NewConcreteCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/Computer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/Computer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/command/Client.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/command/Command.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/ConcreteCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/command/ConcreteCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/Invoker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/command/Invoker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/NewConcreteCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/command/NewConcreteCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/NewReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/command/NewReceiver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/command/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/Receiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/command/Receiver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/res/UML.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/command/res/UML.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/res/character.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/command/res/character.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.bridge.Client">
+  <component name="RunManager" selected="Kotlin.behavioral.bridge.Client">
     <configuration name="Client" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="VM_PARAMETERS" />
@@ -78,14 +85,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bridge.Client" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="behavioral.bridge.Client" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="bridge.Client" />
+      <option name="MAIN_CLASS_NAME" value="behavioral.bridge.Client" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,7 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.bridge.Client" />
+        <item itemvalue="Kotlin.behavioral.bridge.Client" />
         <item itemvalue="Kotlin.Client" />
       </list>
     </recent_temporary>
@@ -116,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573711044397</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加命令模式的readme">
+      <created>1573713170519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573713170519</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加桥接模式的readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加桥接模式的readme" />
+    <MESSAGE value="添加命令模式的readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加命令模式的readme" />
   </component>
 </project>

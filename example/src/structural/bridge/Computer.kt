@@ -1,4 +1,4 @@
-package bridge
+package structural.bridge
 
 abstract class Computer {
 

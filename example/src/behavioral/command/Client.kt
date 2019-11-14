@@ -1,4 +1,4 @@
-package command
+package behavioral.command
 
 class Client {
     companion object{

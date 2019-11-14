@@ -1,4 +1,4 @@
-package bridge
+package structural.bridge
 
 class IntelCpu : CpuFramework {
     override fun runCommand() {
