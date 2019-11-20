@@ -1,5 +1,9 @@
 package creational.singleton
 
+/*
+   线程不安全的懒汉式单例写法
+ */
+
 class LazyMode private constructor(var name: String) {
 
     init {
