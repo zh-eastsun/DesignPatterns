@@ -12,7 +12,7 @@
 * ConcreteImplementor：具体实现类
 
 ## 成员分工
-![avatar](./res/character.png)
+![avatar](res/charactor.png)
 
 ## UML类图
 ![avatar](./res/UML.png)
