@@ -5,8 +5,8 @@ package structural.flyweight
  */
 class Foxconn {
     companion object {
-        private val thinkPad = HashMap<String, ThinkPad>()
-        fun getThinkPad(model: String): ThinkPad {
+        private val thinkPad = HashMap<String, Computer>()
+        fun getThinkPad(model: String): Computer {
             return if (thinkPad.containsKey(model)) {
                 thinkPad[model]!!
             } else {
