@@ -11,9 +11,6 @@ class Client{
             thinkPadX1.doWork()
             var thinkPadX280 = Foxconn.getThinkPad("ThinkPad-X280")
             thinkPadX280.doWork()
-            var thinkPadX = Foxconn.getThinkPad("ThinkPad-X1")
-            println("${thinkPadX1 == thinkPadX}")
-
         }
     }
 }
