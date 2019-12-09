@@ -1,6 +1,5 @@
 package creational.simplefactory
 
-import java.lang.reflect.Constructor
 
 /**
  * 具体的工厂类
